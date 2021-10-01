@@ -12,6 +12,7 @@ git clone https://github.com/tesseract-ocr/tesseract.git
 
 # Install tesseract
 cd tesseract/
+git checkout 5eb2e86635498d113f8e3fb14990a0bef133895b
 ./autogen.sh
 ./configure
 make
@@ -32,7 +33,7 @@ git clone https://github.com/tesseract-ocr/langdata_lstm.git
 
 #Download the best english trained data to tessdata
 cd ./tessdata/
-wget https://github.com/tesseract-ocr/tessdata_best/raw/master/eng.traineddata
+wget https://github.com/tesseract-ocr/tessdata_best/raw/main/eng.traineddata
 
 
 
